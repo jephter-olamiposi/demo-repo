@@ -1,0 +1,101 @@
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    
+  }
+  #logo {
+    text-align: center;
+    margin: 0;
+    padding-top: 60px;
+    padding-bottom: 25px;
+  }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: rgb(6,40,99);
+  }
+ .head {
+  color:rgb(8,62,158);
+  font-size: x-large;
+ }
+  p  {
+    color:rgb(113,132,137);
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  #container {
+    margin: 30px auto;
+    max-width: 430px;
+    padding: 0;
+  }
+
+  .form-wrap {
+    background: #fff;
+    padding: 40px 40px 48px;
+    border-radius: 30px 30px 30px 0px;
+  }
+
+  .form-wrap h3,
+  .form-wrap p {
+    text-align: center;
+  }
+
+  .form-wrap .form-group {
+    margin-top: 20px;
+    font-size: small;
+   
+
+  }
+  .form-group input,select {
+    background: #ddd;
+    width:100%;
+    padding: 20px;
+    border: none ;
+    border-radius: 10px 10px 10px 0px;
+    
+  }
+
+  .form-wrap .form-group label {
+    display: flex;
+    color: rgb(0, 0, 0);
+    border: none;
+  }
+
+
+
+  .form-wrap button  {
+    width: 100%;
+    padding: 15px;
+    margin-top: 25px;
+    background: rgb(8,62,158);
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px 10px 10px 0px;
+    font-size: large;
+
+  }
+
+  .form-wrap button:hover {
+    background: #344a72;
+    border: none;
+
+  }
+
+
+  footer p,a {
+    text-align: center;
+    margin-top: 10px;
+    color:white;
+
+  }
+
+  footer :hover { 
+    color:rgb(168, 162, 162);
+  }
